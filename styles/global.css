@@ -12,9 +12,30 @@
     --text-color-primary: #f1f5f9;
     --text-color-secundary: #cbd5e1;
 
-    
+    --font: "Archivo", sans-serif;
+    --h1: 800 24px/135% var(--font);
+    --h2: 800 16px/140% var(--font);
+    --h3: 800 14px/140% var(--font);
+    --text-span: 600 14px/145% var(--font);
+    --text: 400 16px/140% var(--font);
+    --text-sm: 400 14px/160% var(--font);
 }
 
 body {
     color: var(--text-color-primary);
+    background-color: var(--bg-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color-primary);
+    font: inherit;
+}
+
+a:hover {
+    color: var(--brand-color-light);
+}
+
+h1, h2, h3 {
+    font: inherit;
 }
