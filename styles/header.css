@@ -20,7 +20,6 @@
 
 #secundary {
     padding-block: 14px;
-    border: 1px solid var(--stroke-color);
-    border-inline: none;
+    border-block: 1px solid var(--stroke-color);
     justify-content: space-between;
 }
